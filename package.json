@@ -1,0 +1,23 @@
+{
+	"name": "vk-pdf-viewer",
+	"version": "1.0.0",
+	"description": "PDF.js を読み込むためのスクリプトです。",
+	"main": "gulpfile.js",
+	"scripts": {
+		"update": "ncu -u && rm -rf node_modules package-lock.json && npm install && gulp copy_pdfjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vektor-inc/vk-pdf-viewer.git"
+	},
+	"author": "Vektor Inc.",
+	"license": "GPL-2.0",
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"npm-check-updates": "^16.14.6",
+		"pdfjs-dist": "^3.4.120"
+	},
+	"volta": {
+		"node": "18.13.0"
+	}
+}
