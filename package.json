@@ -4,18 +4,22 @@
 	"description": "PDF.js を読み込むためのスクリプトです。",
 	"main": "gulpfile.js",
 	"scripts": {
-		"update": "ncu -u && rm -rf node_modules package-lock.json && npm install && gulp copy_pdfjs"
+		"update": "ncu -u && rm -rf node_modules package-lock.json && npm install && gulp copy_pdf"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/vektor-inc/vk-pdf-viewer.git"
+		"url": "https://github.com/vektor-inc/vk-pdf-viewer"
 	},
 	"author": "Vektor Inc.",
 	"license": "GPL-2.0",
+	"bugs": {
+		"url": "https://github.com/vektor-inc/vk-pdf-viewer/issues"
+	},
+	"homepage": "https://github.com/vektor-inc/vk-pdf-viewer#readme",
 	"devDependencies": {
 		"gulp": "^4.0.2",
 		"npm-check-updates": "^16.14.6",
-		"pdfjs-dist": "^3.4.120"
+		"pdfjs-dist": "^3.0.0"
 	},
 	"volta": {
 		"node": "18.13.0"
