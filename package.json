@@ -20,8 +20,5 @@
 		"gulp": "^4.0.2",
 		"npm-check-updates": "^16.14.6",
 		"pdfjs-dist": "^3.0.0"
-	},
-	"volta": {
-		"node": "18.13.0"
 	}
 }
