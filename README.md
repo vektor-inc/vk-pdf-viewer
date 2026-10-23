@@ -25,4 +25,4 @@ vkPdfViewer::enqueue_swiper();
 
 ## Change log
 
-Nothing
+* [ 開発環境 ] Node.js のバージョン指定を package.json の volta から .node-version へ移行
